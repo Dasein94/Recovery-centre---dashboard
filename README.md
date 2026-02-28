@@ -47,7 +47,8 @@ Macros were also implemented to identify clients whose assessments were rearrang
 ### 3. Interactive Dashboard
 Designed a dashboard using dynamic charts and slicers, allowing real-time filtering by keyworker and time period.
 
-<img width="937" height="360" alt="Dashboard" src="https://github.com/user-attachments/assets/59f6e099-09b7-4cac-938d-f886b45a2b34" />
+<img width="937" height="335" alt="Dashboard" src="https://github.com/user-attachments/assets/6108403b-9143-49e9-9d7f-bb89c63e42f2" />
+
 
 ### 4. Statistical Analysis in R
 - Conducted a χ² test to examine the association between referral source and assessment completion.
