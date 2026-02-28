@@ -14,7 +14,16 @@ This project recreates that dashboard using synthetic data. It focuses on first 
 
 ## Structure
 
-<pre> ```text Recovery-centre---dashboard/ │ ├── DB_Organization.xlsm ├── README.md │ ├── VBA/ │ ├── Module1.bas │ ├── Sheet1.cls │ └── Sheet2.cls │ └── R/ ├── synthetic_data.R └── data_analysis.R ``` </pre>
+Recovery_Centre_Dashboard/
+├── DB_Organization.xlsm
+├── README.md
+├── VBA/
+│   ├── Module1.bas
+│   ├── Sheet1.cls
+│   └── Sheet2.cls
+└── R/
+    ├── synthetic_data.R
+    └── data_analysis.R
 
 ### File Descriptions
 
