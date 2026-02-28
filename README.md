@@ -47,7 +47,7 @@ Macros were also implemented to identify clients whose assessments were rearrang
 ### 3. Interactive Dashboard
 Designed a dashboard using dynamic charts and slicers, allowing real-time filtering by keyworker and time period.
 ### 4. Statistical Analysis in R
-- Conducted a contingency table analysis and χ² test to examine the association between referral source and assessment completion.
+- Conducted a χ² test to examine the association between referral source and assessment completion.
 - Fitted a logistic regression model to estimate the odds of completing an assessment based on referral source.
 
 ## Key Findings
