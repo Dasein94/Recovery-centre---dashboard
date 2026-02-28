@@ -14,19 +14,14 @@ This project recreates that dashboard using synthetic data. It focuses on first 
 
 ## Structure
 
-Recovery-centre---dashboard/
-│
-├── DB organization.xlsm  *Excel table (6 columns x769 rows), pivot tables and dashboard*
-├── README.md 
-│
-├── VBA/
-│   ├── Module1.bas  *Recorded macros assigned to buttons* 
-│   ├── Sheet1.cls, and sheet2.cls  *in order to automate pivot tables*
-│
-├── R/
-│   ├── syntheticdata.r  *Generates client-level and assessment-level synthetic datasets*
-├── data_analysis.r  *Creates a contingency table, and tests association between referral source and assessment completion*
+<pre> ```text Recovery-centre---dashboard/ │ ├── DB_Organization.xlsm ├── README.md │ ├── VBA/ │ ├── Module1.bas │ ├── Sheet1.cls │ └── Sheet2.cls │ └── R/ ├── synthetic_data.R └── data_analysis.R ``` </pre>
 
+### File Descriptions
+
+- **DB_Organization.xlsm** – Excel dashboard with pivot tables 
+- **VBA/** – Contains macro code for dashboard automation.
+- **R/synthetic_data.R** – Generates client-level and assessment-level synthetic datasets.
+- **R/data_analysis.R** – Performs χ² test and logistic regression analysis.
 
 ***Requirements. Excel with macros enabled. Optional – R. Packages: charlatan, dplyr, tidyr, lubridate.***
 
@@ -54,10 +49,10 @@ Designed a dashboard using dynamic charts and slicers, allowing real-time filter
 - Referrals to the service increase with time. Month comparison of assessments vs referrals shows assessments are largely covered. There are also more referrals than assessments.
 
 ### Data Analysis
-**Assessment Completion by Referral Source**
+**Assessment Completion by Referral Source**:
 Analysis of assessment outcomes revealed a clear difference between referral groups. Individuals referred by non-criminal sources (self, hospital, GP) were nearly three times more likely to complete the assessment compared with those referred by criminal justice services (OR = 2.94, 95% CI [2.16, 4.02], p < 0.001).
 
-**Criminal Justice Referrals Breakdown**
+**Criminal Justice Referrals Breakdown**:
 Within the criminal justice referrals, prison leavers were less likely to attend their first assessment compared with individuals referred by the police or probation services. The highest completion rates were observed among probation referrals, likely reflecting the influence of mandatory treatment requirements.
 
 *Summary Table – Odds Ratios for Completion*
