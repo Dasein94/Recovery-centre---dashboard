@@ -2,7 +2,7 @@
 
 ## Overview
 
-While working at a drug and alcohol recovery centre, I developed an automated Excel dashboard using VBA macros to streamline reporting and improve data visibility. The dashboard integrated multiple datasets, reduced time spent generating reports, and highlighted patterns in client engagement and service use.
+While working at a drug & alcohol recovery centre, I developed an automated Excel dashboard using VBA macros to streamline reporting and improve data visibility. The dashboard integrated multiple datasets, reduced time spent generating reports, and highlighted patterns in client engagement and service use.
 This project recreates that dashboard using synthetic data. It focuses on first assessment attendance (Completed, Did Not Attend, Rearranged), referral source, and assigned keyworker.
 
 ## Objectives
