@@ -8,7 +8,7 @@ This project recreates that dashboard using synthetic data. It focuses on first 
 
 ## Objectives
 
-- Reproduce the original service dashboard using synthetic data.
+- Reproduce the original dashboard using synthetic data.
 - Conduct descriptive analysis of assessment outcomes.
 - Examine whether clients referred through the criminal justice system (police, probation, prison leavers) were less likely to complete their first assessment compared to non-criminal referrals (self, hospital, GP).
 - Strengthen and demonstrate applied skills in Excel (PivotTables, slicers, VBA) and statistical analysis in R (logistic regression).
