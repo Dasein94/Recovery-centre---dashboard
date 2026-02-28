@@ -62,9 +62,11 @@ Designed a dashboard using dynamic charts and slicers, allowing real-time filter
 
 ### Data Analysis
 **Assessment Completion by Referral Source**:
+
 Analysis of assessment outcomes revealed a clear difference between referral groups. Individuals referred by non-criminal sources (self, hospital, GP) were nearly three times more likely to complete the assessment compared with those referred by criminal justice services (OR = 2.94, 95% CI [2.16, 4.02], p < 0.001).
 
 **Criminal Justice Referrals Breakdown**:
+
 Within the criminal justice referrals, prison leavers were less likely to attend their first assessment compared with individuals referred by the police or probation services. The highest completion rates were observed among probation referrals, likely reflecting the influence of mandatory treatment requirements.
 
 *Summary Table – Odds Ratios for Completion*
