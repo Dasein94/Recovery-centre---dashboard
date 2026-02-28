@@ -43,7 +43,7 @@ Recovery-centre---dashboard/
 Recreated the core variables from the original dashboard using synthetically generated data in R.
 ### 2. Dynamic Pivot Tables & VBA Automation
 Built PivotTables summarizing assessment attendance, substance group, and referral source. The tables were linked to the main dataset, ensuring automatic updates with VBA macros when new records are added. 
-VBA macros was also implemented to identify clients whose assessments were rearranged multiple times. Additionally, the table also displays a chronologically ordered list of all assessments when the macro button is clicked.
+Macros were also implemented to identify clients whose assessments were rearranged multiple times. Additionally, the table displays a chronologically ordered list of all assessments when a button is clicked.
 ### 3. Interactive Dashboard
 Designed a dashboard using dynamic charts and slicers, allowing real-time filtering by keyworker and time period.
 ### 4. Statistical Analysis in R
