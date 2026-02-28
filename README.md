@@ -46,6 +46,9 @@ Built PivotTables summarizing assessment attendance, substance group, and referr
 Macros were also implemented to identify clients whose assessments were rearranged multiple times. Additionally, the table displays a chronologically ordered list of all assessments when a button is clicked.
 ### 3. Interactive Dashboard
 Designed a dashboard using dynamic charts and slicers, allowing real-time filtering by keyworker and time period.
+
+<img width="937" height="360" alt="Dashboard" src="https://github.com/user-attachments/assets/59f6e099-09b7-4cac-938d-f886b45a2b34" />
+
 ### 4. Statistical Analysis in R
 - Conducted a χ² test to examine the association between referral source and assessment completion.
 - Fitted a logistic regression model to estimate the odds of completing an assessment based on referral source.
